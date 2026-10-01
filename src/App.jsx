@@ -15,7 +15,6 @@ function App() {
   };
 
   return (
-    // Wrapper terluar ini yang akan memastikan warna background menyentuh tepi layar
     <div className={`theme-wrapper ${isDarkMode ? 'dark-theme' : ''}`}>
       <div className="app-container">
         <Header isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
