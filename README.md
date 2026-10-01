@@ -1,16 +1,78 @@
-# React + Vite
+Tugas Pertemuan 4 - Bootcamp (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyek ini adalah aplikasi web berbasis React yang dibangun menggunakan bundler Vite untuk memenuhi tugas pertemuan 4 bootcamp. Proyek ini menampilkan profil interaktif dengan fitur Dark/Light Mode dan tombol Like.
 
-Currently, two official plugins are available:
+📋 Prasyarat (Prerequisites)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Sebelum menjalankan proyek ini, pastikan komputer Anda telah terinstal:
 
-## React Compiler
+Node.js (Disarankan versi LTS terbaru, minimal versi 16.x atau lebih baru). Node.js sudah termasuk npm secara otomatis.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Git (Opsional, untuk melakukan cloning repositori).
 
-## Expanding the ESLint configuration
+Untuk memeriksa apakah Node.js dan npm sudah terinstal di komputer Anda, buka terminal (CMD, PowerShell, atau Terminal Mac/Linux) lalu ketik:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+node -v
+npm -v
+
+
+Jika muncul versi angka (misal v18.x.x dan 9.x.x), berarti Node.js dan npm sudah siap digunakan.
+
+⚙️ Cara Instalasi & Menjalankan Proyek
+
+Ikuti langkah-langkah di bawah ini untuk mengunduh, menginstal, dan menjalankan proyek di komputer lokal Anda:
+
+1. Clone Repositori (Atau Buka Folder Proyek)
+
+Jika Anda mengunduh dari GitHub, buka terminal pada direktori proyek Anda atau clone repositori:
+
+git clone https://github.com/ImamAkbar-dev/Tugas-Pertemuan-4-Bootcamp.git
+cd tugas-pertemuan4-isb
+
+
+2. Install Dependensi (npm install)
+
+Langkah ini berfungsi untuk mengunduh semua pustaka/modul yang dibutuhkan oleh proyek (tertera di dalam file package.json), seperti React, ReactDOM, dan plugin Vite.
+
+Jalankan perintah berikut di terminal:
+
+npm install
+
+
+Tunggu hingga proses pengunduhan selesai dan folder node_modules berhasil dibuat.
+
+3. Menjalankan Server Pengembangan (npm run dev)
+
+Setelah proses instalasi dependensi selesai, Anda dapat menjalankan aplikasi dalam mode development lokal.
+
+Jalankan perintah berikut:
+
+npm run dev
+
+
+Anda akan melihat output di terminal yang mirip seperti ini:
+
+  VITE v5.x.x  ready in xxx ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+
+4. Membuka Aplikasi di Browser
+
+Buka browser web favorit Anda (Google Chrome, Microsoft Edge, Firefox, dll.), lalu salin dan tempel tautan berikut ke bilah alamat:
+
+http://localhost:5173/
+
+
+Aplikasi React Anda kini sudah berjalan dan siap digunakan!
+
+🛑 Cara Menghentikan Server
+
+Jika Anda ingin menghentikan server pengembangan yang sedang berjalan di terminal, cukup tekan tombol:
+
+Ctrl + C pada keyboard Anda (Windows/Linux)
+
+Cmd + C (Mac)
+Lalu ketik Y jika diminta konfirmasi.
